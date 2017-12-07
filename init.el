@@ -88,3 +88,4 @@
 (require 'init-ui)
 (require 'init-better-default)
 (require 'init-keybind)
+(put 'dired-find-alternate-file 'disabled nil)

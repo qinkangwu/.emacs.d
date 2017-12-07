@@ -22,6 +22,22 @@
 (require 'hungry-delete)
 (global-hungry-delete-mode)
 
+
+;;回车进入新目录不重新建立缓冲
+(put 'dired-find-alternate-file 'disabled nil)
+
+;; 主动加载 Dired Mode
+;; (require 'dired)
+;; (defined-key dired-mode-map (kbd "RET") 'dired-find-alternate-file)
+
+;; 延迟加载
+(with-eval-after-load 'dired
+    (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))
+
+;;启用 dired-x 可以让每一次进入 Dired 模式时，使用新的快捷键 C-x C-j 就可以进 入当前文件夹的所在的路径。
+(require 'dired-x)
+
+
 ;;用yn代替yes no
 (fset 'yes-or-no-p 'y-or-n-p)
 (provide 'init-better-default)
