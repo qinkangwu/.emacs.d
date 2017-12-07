@@ -36,7 +36,6 @@
 	(indent-buffer)
 	(message "Indent buffer.")))))
 (global-set-key (kbd "C-M-\\") 'indent-region-or-buffer)
-
 ;;hippie补全
 (setq hippie-expand-try-function-list '(try-expand-debbrev
 					try-expand-debbrev-all-buffers
@@ -49,6 +48,15 @@
 					try-complete-lisp-symbol-partially
 					try-complete-lisp-symbol))
 (global-set-key (kbd "s-/") 'hippie-expand)
+
+
+;;os系统调用系统的finder打开文件夹
+(require 'reveal-in-osx-finder)
+(global-set-key (kbd "C-c z") 'reveal-in-osx-finder)
+
+;;打开终端
+(require 'shell)
+(global-set-key (kbd "C-x x") 'shell)
 
 (with-eval-after-load 'dired
   (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))

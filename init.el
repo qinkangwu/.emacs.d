@@ -15,6 +15,7 @@
 		;; --- Auto-completion ---
 		company
 		;; --- Better Editor ---
+		reveal-in-osx-finder
 		hungry-delete
 		swiper
 		counsel
@@ -55,7 +56,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (js3-mode swiper-helm company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme))))
+    (reveal-in-osx-finder js3-mode swiper-helm company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
