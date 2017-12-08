@@ -22,8 +22,10 @@
 		smartparens
 		;; --- Major Mode ---
 		js2-mode
+		web-mode
 		;; --- Minor Mode ---
 		nodejs-repl
+		js2-refactor
 		exec-path-from-shell
 		;; --- Themes ---
 		monokai-theme
@@ -56,7 +58,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (reveal-in-osx-finder js3-mode swiper-helm company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme))))
+    (js2-refactor web-mode reveal-in-osx-finder js3-mode swiper-helm company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -67,6 +69,8 @@
 (setq auto-mode-alist
       (append
        '(("\\.js\\'" . js3-mode))
+       '(("\\.html\\'" . web-mode))
+       '(("\\.ejs\\'" . web-mode))
        auto-mode-alist))
 
 ;; 解决mac找不到nodejs可执行文件的问题

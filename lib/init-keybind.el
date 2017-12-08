@@ -61,10 +61,10 @@
 (with-eval-after-load 'dired
   (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))
 
-
 ;; r aka remember
 (global-set-key (kbd "C-c r") 'org-capture)
 
+;;两个空格与四个空格的切换
 (global-set-key (kbd "C-c t i") 'my-toggle-web-indent)
 
 (global-set-key (kbd "M-s i") 'counsel-imenu)
@@ -78,6 +78,10 @@
   (define-key company-active-map (kbd "C-n") #'company-select-next)
   (define-key company-active-map (kbd "C-p") #'company-select-previous))
 
+
+;;js2-refactor插件
+(add-hook 'js2-mode-hook #'js2-refactor-mode)
+(js2r-add-keybindings-with-prefix "C-c C-m")
 
 ;;(global-set-key (kbd "C-c p s") 'helm-do-ag-project-root)
 (global-set-key (kbd "C-w") 'backward-kill-word)
