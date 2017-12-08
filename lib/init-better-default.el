@@ -14,6 +14,12 @@
 (require 'popwin)
 (popwin-mode 1)
 
+;;用空格代替tab
+(setq-default indent-tabs-mode nil);
+
+;;设置tab为四个空格
+(setq default-tab-width 4)
+
 ;;使emcas支持选中替换的模式
 (delete-selection-mode 1)
 ;;自动括号匹配
@@ -21,7 +27,6 @@
 ;;饥饿删除(删除多余空格字符)
 (require 'hungry-delete)
 (global-hungry-delete-mode)
-
 
 ;;回车进入新目录不重新建立缓冲
 (put 'dired-find-alternate-file 'disabled nil)
@@ -61,6 +66,11 @@
 ;;启用 dired-x 可以让每一次进入 Dired 模式时，使用新的快捷键 C-x C-j 就可以进 入当前文件夹的所在的路径。
 (require 'dired-x)
 
+
+;;把emmetmode绑定到js3-mode 和 web-mode上面去
+(require 'emmet-mode)
+(add-hook 'js3-mode-hook 'emmet-mode)
+(add-hook 'web-mode-hook 'emmet-mode)
 
 ;;用yn代替yes no
 (fset 'yes-or-no-p 'y-or-n-p)

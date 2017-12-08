@@ -65,11 +65,25 @@
 (global-set-key (kbd "C-c r") 'org-capture)
 
 ;;两个空格与四个空格的切换
+(defun my-toggle-web-indent ()
+  (interactive)
+  ;; web development
+  (if (or (eq major-mode 'js-mode) (eq major-mode 'js2-mode))
+      (progn
+	(setq js-indent-level (if (= js-indent-level 2) 4 2))
+	(setq js2-basic-offset (if (= js2-basic-offset 2) 4 2))))
+
+  (if (eq major-mode 'web-mode)
+      (progn (setq web-mode-markup-indent-offset (if (= web-mode-markup-indent-offset 2) 4 2))
+	     (setq web-mode-css-indent-offset (if (= web-mode-css-indent-offset 2) 4 2))
+	     (setq web-mode-code-indent-offset (if (= web-mode-code-indent-offset 2) 4 2))))
+  (if (eq major-mode 'css-mode)
+      (setq css-indent-offset (if (= css-indent-offset 2) 4 2)))
+
+  (setq indent-tabs-mode nil))
 (global-set-key (kbd "C-c t i") 'my-toggle-web-indent)
 
 (global-set-key (kbd "M-s i") 'counsel-imenu)
-
-(global-set-key (kbd "M-s e") 'iedit-mode)
 
 (global-set-key (kbd "C-=") 'er/expand-region)
 (with-eval-after-load 'company
@@ -78,7 +92,50 @@
   (define-key company-active-map (kbd "C-n") #'company-select-next)
   (define-key company-active-map (kbd "C-p") #'company-select-previous))
 
+;;occur与imenu的优化
+(defun occur-dwim ()
+  "Call `occur' with a sane default."
+  (interactive)
+  (push (if (region-active-p)
+	    (buffer-substring-no-properties
+	     (region-beginning)
+	     (region-end))
+	  (let ((sym (thing-at-point 'symbol)))
+	    (when (stringp sym)
+	      (regexp-quote sym))))
+	regexp-history)
+  (call-interactively 'occur))
+(global-set-key (kbd "M-s o") 'occur-dwim)
 
+;;imenu显示当前所有缓冲区的列表，下面的配置可以让其拥有更精确的跳转
+(defun js2-imenu-make-index ()
+      (interactive)
+      (save-excursion
+	;; (setq imenu-generic-expression '((nil "describe\\(\"\\(.+\\)\"" 1)))
+	(imenu--generic-function '(("describe" "\\s-*describe\\s-*(\\s-*[\"']\\(.+\\)[\"']\\s-*,.*" 1)
+				   ("it" "\\s-*it\\s-*(\\s-*[\"']\\(.+\\)[\"']\\s-*,.*" 1)
+				   ("test" "\\s-*test\\s-*(\\s-*[\"']\\(.+\\)[\"']\\s-*,.*" 1)
+				   ("before" "\\s-*before\\s-*(\\s-*[\"']\\(.+\\)[\"']\\s-*,.*" 1)
+				   ("after" "\\s-*after\\s-*(\\s-*[\"']\\(.+\\)[\"']\\s-*,.*" 1)
+				   ("Function" "function[ \t]+\\([a-zA-Z0-9_$.]+\\)[ \t]*(" 1)
+				   ("Function" "^[ \t]*\\([a-zA-Z0-9_$.]+\\)[ \t]*=[ \t]*function[ \t]*(" 1)
+				   ("Function" "^var[ \t]*\\([a-zA-Z0-9_$.]+\\)[ \t]*=[ \t]*function[ \t]*(" 1)
+				   ("Function" "^[ \t]*\\([a-zA-Z0-9_$.]+\\)[ \t]*()[ \t]*{" 1)
+				   ("Function" "^[ \t]*\\([a-zA-Z0-9_$.]+\\)[ \t]*:[ \t]*function[ \t]*(" 1)
+				   ("Task" "[. \t]task([ \t]*['\"]\\([^'\"]+\\)" 1)))))
+(add-hook 'js2-mode-hook
+	      (lambda ()
+		(setq imenu-create-index-function 'js2-imenu-make-index)))
+
+(global-set-key (kbd "M-s i") 'counsel-imenu)
+
+
+;;autocomplete
+(require 'auto-complete)
+(define-key ac-mode-map (kbd "M-TAB") 'auto-complete)
+
+;;回车新一行 缩进
+(global-set-key (kbd "RET") 'newline-and-indent)
 ;;js2-refactor插件
 (add-hook 'js2-mode-hook #'js2-refactor-mode)
 (js2r-add-keybindings-with-prefix "C-c C-m")
@@ -86,5 +143,7 @@
 ;;(global-set-key (kbd "C-c p s") 'helm-do-ag-project-root)
 (global-set-key (kbd "C-w") 'backward-kill-word)
 
+;;iedit 多区域编辑
+(global-set-key (kbd "M-s e") 'iedit-mode)
 
 (provide 'init-keybind)
