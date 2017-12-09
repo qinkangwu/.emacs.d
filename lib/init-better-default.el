@@ -1,4 +1,4 @@
-;; 开启全局 Company 补全
+; 开启全局 Company 补全
 (global-company-mode 1)
 
 ;; 关闭默认备份
@@ -71,6 +71,7 @@
 (require 'emmet-mode)
 (add-hook 'js3-mode-hook 'emmet-mode)
 (add-hook 'web-mode-hook 'emmet-mode)
+(add-hook 'jsx-mode-hook 'emmet-mode)
 
 ;;用yn代替yes no
 (fset 'yes-or-no-p 'y-or-n-p)

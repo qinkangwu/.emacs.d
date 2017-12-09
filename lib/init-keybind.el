@@ -11,7 +11,6 @@
 
 (global-set-key (kbd "<f2>") 'open-my-init-file)
 (global-set-key "\C-x\ \C-r" 'recentf-open-files)
-
 (global-set-key (kbd "C-h C-f") 'find-function)
 (global-set-key (kbd "C-h C-v") 'find-variable)
 (global-set-key (kbd "C-h C-k") 'find-function-on-key)
@@ -19,6 +18,9 @@
 ;;(global-set-key (kbd "C-c p f") 'counsel-git)
 
 (global-set-key (kbd "C-c a") 'org-agenda)
+
+;;git status
+(global-set-key (kbd "C-x g") 'magit-status)
 
 (defun indent-buffer()
   (interactive)
@@ -49,6 +51,8 @@
 					try-complete-lisp-symbol))
 (global-set-key (kbd "s-/") 'hippie-expand)
 
+;;快速调起company-complete
+(global-set-key (kbd "C-c /") 'company-complete)
 
 ;;os系统调用系统的finder打开文件夹
 (require 'reveal-in-osx-finder)
@@ -86,11 +90,6 @@
 (global-set-key (kbd "M-s i") 'counsel-imenu)
 
 (global-set-key (kbd "C-=") 'er/expand-region)
-(with-eval-after-load 'company
-  (define-key company-active-map (kbd "M-n") nil)
-  (define-key company-active-map (kbd "M-p") nil)
-  (define-key company-active-map (kbd "C-n") #'company-select-next)
-  (define-key company-active-map (kbd "C-p") #'company-select-previous))
 
 ;;occur与imenu的优化
 (defun occur-dwim ()
@@ -128,20 +127,11 @@
 		(setq imenu-create-index-function 'js2-imenu-make-index)))
 
 (global-set-key (kbd "M-s i") 'counsel-imenu)
-
-
-;;autocomplete
-(require 'auto-complete)
-(define-key ac-mode-map (kbd "M-TAB") 'auto-complete)
-
 ;;回车新一行 缩进
 (global-set-key (kbd "RET") 'newline-and-indent)
 ;;js2-refactor插件
 (add-hook 'js2-mode-hook #'js2-refactor-mode)
 (js2r-add-keybindings-with-prefix "C-c C-m")
-
-;;(global-set-key (kbd "C-c p s") 'helm-do-ag-project-root)
-(global-set-key (kbd "C-w") 'backward-kill-word)
 
 ;;iedit 多区域编辑
 (global-set-key (kbd "M-s e") 'iedit-mode)

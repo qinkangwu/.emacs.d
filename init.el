@@ -1,3 +1,4 @@
+
 ;; 添加melpa作为插件源
 (when (>= emacs-major-version 24)
      (require 'package)
@@ -17,6 +18,8 @@
 		;; --- Better Editor ---
 		reveal-in-osx-finder
 		hungry-delete
+                magit
+                jdee
 		iedit
 		swiper
 		expand-region
@@ -60,7 +63,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (emmet-mode auto-complete iedit expand-region js2-refactor web-mode reveal-in-osx-finder js3-mode swiper-helm company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme))))
+    (magit jsx-mode jdee emmet-mode auto-complete iedit expand-region js2-refactor web-mode reveal-in-osx-finder js3-mode swiper-helm company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -70,7 +73,7 @@
 
 (setq auto-mode-alist
       (append
-       '(("\\.js\\'" . web-mode))
+       '(("\\.js\\'" . jsx-mode))
        '(("\\.html\\'" . web-mode))
        '(("\\.ejs\\'" . web-mode))
        auto-mode-alist))
