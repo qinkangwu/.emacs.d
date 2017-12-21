@@ -66,13 +66,24 @@
 ;;启用 dired-x 可以让每一次进入 Dired 模式时，使用新的快捷键 C-x C-j 就可以进 入当前文件夹的所在的路径。
 (require 'dired-x)
 
-
 ;;把emmetmode绑定到js3-mode 和 web-mode上面去
 (require 'emmet-mode)
 (add-hook 'js3-mode-hook 'emmet-mode)
 (add-hook 'web-mode-hook 'emmet-mode)
 (add-hook 'jsx-mode-hook 'emmet-mode)
 
+;;启动回到原来的界面
+(require 'session)
+(add-hook 'after-init-hook 'session-initialize)
+(desktop-save-mode t)
+
 ;;用yn代替yes no
 (fset 'yes-or-no-p 'y-or-n-p)
+
+;;代码片段
+(yas-global-mode 1)
+
+;;开启projectile mode
+(projectile-mode)
+
 (provide 'init-better-default)

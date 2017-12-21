@@ -1,0 +1,427 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Dec 21 20:19:28 2017
+;; Desktop file format version 208
+;; Emacs version 27.0.50
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23099 42704 696419 0) (desktop . "208") "admin@qkws-MacBook-Pro.local" nil nil ((((minibuffer . t) (font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#FDF4C1") (background-color . "#282C32") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . fullboth) (display-type . color) (background-mode . dark) (border-color . "#327789") (cursor-color . "#FDF4C1") (frameset--id . "A6BE-8716-4448-72EC") (frameset--mini t) (height . 100) (width . 118) (modeline . t) (unsplittable) (left + -1200) (top + -1398) (icon-name) (visibility . t) (display . "qkws-MacBook-Pro.local") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 7) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 76) (min-pixel-width . 100) (min-pixel-height-ignore . 38) (min-pixel-width-ignore . 70) (min-pixel-height-safe . 19) (min-pixel-width-safe . 20)) leaf (pixel-width . 1196) (pixel-height . 1881) (total-width . 119) (total-height . 99) (normal-height . 1.0) (normal-width . 1.0) (buffer "index.js<goods>" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3349) (start . 2419))) (((minibuffer . t) (font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#FDF4C1") (background-color . "#282C32") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . fullboth) (display-type . color) (background-mode . dark) (cursor-color . "#FDF4C1") (environment) (border-color . "#327789") (display . "qkws-MacBook-Pro.local") (frameset--id . "7F86-0AE7-2904-2C59") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (explicit-name) (tool-bar-position . top) (visibility . t) (height . 100) (width . 118) (left + -1200) (top + -1398)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 7) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 76) (min-pixel-width . 100) (min-pixel-height-ignore . 38) (min-pixel-width-ignore . 70) (min-pixel-height-safe . 19) (min-pixel-width-safe . 20)) leaf (pixel-width . 1196) (pixel-height . 1881) (total-width . 119) (total-height . 99) (normal-height . 1.0) (normal-width . 1.0) (buffer "index.js<goods>" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 2194) (start . 1296))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("state" "bookSpaPage"))
+(setq regexp-search-ring '("checkStore" "console" "this.state.ac" "acti" "this.state" "this.state.act" "activity" "activ" "alert" "numHandle" "get" "wholeA" "conso"))
+(setq register-alist nil)
+(setq file-name-history '("/Users/admin/.emacs.d/lib/init-keybind.el" "/Users/admin/.emacs.d/init.el" "/Users/admin/.emacs.d/lib/init-better-default.el" "~/web-front2/node_modules/webpack-dev-server/client/web_modules/jquery/jquery-1.8.1.js" "~/web-front2/node_modules/cssstyle/lib/properties.js" "~/web-front2/node_modules/cssstyle/tests/tests.js" "~/web-front2/node_modules/html-minifier/node_modules/uglify-js/tools/domprops.json" "~/web-front2/src/components/goods/" "~/.emacs.d/elpa/projectile-20171126.6/projectile-autoloads.el" "/Users/admin/web-front2/src/components/app.js" "/Users/admin/web-front2/src/components/aboutUs/style.less" "/Users/admin/web-front2/src/components/aboutUs/index.js" "/Users/admin/web-front2/src/components/Login/" "~/web-front2/src/components/aboutUs/style.less" "~/web-front2/src/components/aboutUs/index.js" "~/web-front2/src/components/aboutUs" "~/web-front2/src/components/" "/Users/admin/web-front2/src/components/" "/Users/admin/web-front2/src/components/goods/index.js" "~/.emacs.d/lib/init-auto-save.el" "/Users/admin/.emacs.d/lib/init-auto-save.el" "~/.emacs.d/lib/init-keybind.el" "/Users/admin/.emacs.d/lib/" "/Users/admin/web-front2/src/index.js" "/Users/admin/web-front2/src/.#index.js" "/Users/admin/web-front2/src/components/Login/index.js" "/Users/admin/web-front2/src/components/myTicket/chooseCategory/" "/Users/admin/web-front2/src/components/myTicket/ticketPayment/index.js" "/Users/admin/web-front2/src/components/myTicket/" "/Users/admin/web-front2/src/components/myTicket/activityDetail/index.js" "/Users/admin/web-front2/src/components/myTicket/activityDetail/style.less" "/Users/admin/web-front2/src/components/myTicket/chooseCategory/index.js" "~/web-front2/src/components/myTicket/activityDetail/index.js" "/Users/admin/web-front2/src/components/myTicket/activityDetail/" "/Users/admin/web-front2/src/utils/apiPath.js" "/Users/admin/web-front2/src/components/passing/" "/Users/admin/web-front2/src/components/goods/AlertMessage.js" "/Users/admin/web-front2/src/components/goods/" "/Users/admin/Desktop/asd/demo.js" "/Users/admin/Desktop/asd/" "~/web-front2/src/components/myTicket/ticketList/index.js" "/Users/admin/web-front2/src/components/myTicket/ticketList/" "/Users/admin/web-front2/" "/Users/admin/web-front2/src/components/ManualPay/" "/Users/admin/preact_demo/gua.game.js/7.12/ball.png" "~/preact_demo/gua.game.js/7.21/game.html" "/Users/admin/preact_demo/gua.game.js/" "~/web-front2/webpack.config.babel.js" "~/preact_demo/gua.game.js/7.12/game.html" "/Users/admin/.emacs.d/snippets/" "~/.emacs.d/" "~/.emacs.d/elpa/window-numbering-20160809.1110/window-numbering-autoloads.el" "~/web-front2/src/components/app.js" "~/.emacs.d/init.el" "~/" "~/easyPayNode/node-server.js" "/Users/admin/easyPayNode/" "/Users/admin/web-easyPayNode/" "~/web-front2/src/components/myTicket/ticketPayment/index.js" "/Users/admin/web-front2/src/components/ManualPay/index.js" "/Users/admin/web-easyPayNode/easyPay/" "~/web-easyPayNode/easyPay/node-server.html" "~/web-easyPayNode/easyPay/node-server.js" "~/web-front2/src/components/goods/index.js" "~/.emacs.d/lib/init-better-default.el" "~/.emacs.d/elpa/session-20120510.1700/session-autoloads.el" "~/Desktop/javaBook/asd/demo.ppt" "~/.emacs.d/elpa/magit-20171208.618/magit-autoloads.el" "~/.emacs.d/elpa/ghub-20171207.1537/ghub-autoloads.el" "~/.emacs.d/elpa/git-commit-20171203.1127/git-commit-autoloads.el" "~/.emacs.d/elpa/magit-popup-20171121.1110/magit-popup-autoloads.el" "~/.emacs.d/elpa/with-editor-20171127.635/with-editor-autoloads.el" "~/.emacs.d/elpa/jsx-mode-20130908.1024/jsx-mode-autoloads.el" "~/.emacs.d/elpa/jdee-20171007.835/jdee-autoloads.el" "~/.emacs.d/elpa/flycheck-20171206.1239/flycheck-autoloads.el" "~/.emacs.d/elpa/pkg-info-20150517.443/pkg-info-autoloads.el" "~/.emacs.d/elpa/epl-20150517.433/epl-autoloads.el" "~/.emacs.d/elpa/memoize-20170720.1802/memoize-autoloads.el" "~/Desktop/javaworkspace/xstrade/src/main/java/com/xs1h/ticket/manager/TicketCategoryManager.java" "~/web-front2/src/components/goods/GoodDetail.js"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/src/components/goods/index.js"
+  "index.js"
+  'jsx-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  3349
+  '(295 nil)
+  nil
+  nil
+  '((buffer-display-time 23099 42661 966867 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (10720 8406 19818 880 880 880 880 880 880 880 880 880 880 880 880 2057))))
+
+(desktop-create-buffer 208
+  "/Users/admin/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode yas-minor-mode projectile-mode)
+  459
+  '(652 nil)
+  nil
+  nil
+  '((buffer-display-time 23099 42620 912793 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (679 1377))))
+
+(desktop-create-buffer 208
+  "/Users/admin/.emacs.d/lib/init-keybind.el"
+  "init-keybind.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode yas-minor-mode projectile-mode)
+  1826
+  '(1826 nil)
+  nil
+  nil
+  '((buffer-display-time 23099 42614 510515 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/admin/.emacs.d/lib/init-better-default.el"
+  "init-better-default.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode yas-minor-mode projectile-mode)
+  2054
+  '(2037 nil)
+  nil
+  nil
+  '((buffer-display-time 23099 42379 434209 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1996 2056 2056 127 2056 2056 2087 1764 1666 127 1834 2015))))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/node_modules/webpack-dev-server/client/web_modules/jquery/jquery-1.8.1.js"
+  "jquery-1.8.1.js"
+  'jsx-mode
+  '(linum-mode company-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  181586
+  '(181586 nil)
+  nil
+  nil
+  '((buffer-display-time 23099 24055 801328 0) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/node_modules/cssstyle/lib/properties.js"
+  "properties.js"
+  'jsx-mode
+  '(linum-mode company-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  136898
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23099 24023 41977 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/node_modules/cssstyle/tests/tests.js"
+  "tests.js"
+  'jsx-mode
+  '(linum-mode company-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  282
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23099 24016 752891 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/node_modules/html-minifier/node_modules/uglify-js/tools/domprops.json"
+  "domprops.json"
+  'js-mode
+  '(linum-mode company-mode global-auto-revert-mode hungry-delete-mode yas-minor-mode projectile-mode)
+  120359
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23099 24010 858881 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/src/components/goods/AlertMessage.js"
+  "AlertMessage.js"
+  'jsx-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  1161
+  '(1693 nil)
+  nil
+  nil
+  '((buffer-display-time 23099 24059 748966 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1161 1756))))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/src/components/Login/index.js"
+  "index.js"
+  'jsx-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  1558
+  '(6039 nil)
+  nil
+  nil
+  '((buffer-display-time 23099 23695 820924 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (5173 1 4240 5173))))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/src/components/ManualPay/index.js"
+  "index.js"
+  'jsx-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  5886
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23099 23436 272531 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/src/components/aboutUs/index.js"
+  "index.js"
+  'jsx-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  1324
+  '(754 nil)
+  nil
+  nil
+  '((buffer-display-time 23099 22770 207485 993000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (754 754 754 424 754 754 754 754 754 754 754 754 754 2750 754 754))))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/src/components/aboutUs/style.less"
+  "style.less"
+  'less-css-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode yas-minor-mode projectile-mode)
+  174
+  '(137 nil)
+  nil
+  nil
+  '((buffer-display-time 23099 12154 152188 993000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (66 573 50 66 85 95 66 212 251 181 84 66 66 250 95 107))))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/src/components/app.js"
+  "app.js"
+  'jsx-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode smerge-mode)
+  7776
+  '(7853 nil)
+  nil
+  nil
+  '((buffer-display-time 23099 8298 335923 993000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (2879 2879 2879 2873 2871 7853 162 162 162 162 162 2879 2879))))
+
+(desktop-create-buffer 208
+  nil
+  "aboutUs"
+  'dired-mode
+  '(linum-mode company-mode global-auto-revert-mode hungry-delete-mode yas-minor-mode projectile-mode)
+  197
+  '(nil nil)
+  t
+  '("/Users/admin/web-front2/src/components/aboutUs/")
+  '((buffer-display-time 23099 6410 65621 993000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/src/index.js"
+  "index.js"
+  'jsx-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  1796
+  '(9023 nil)
+  nil
+  nil
+  '((buffer-display-time 23097 26446 187599 902000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (9419 9023 1796 2397 2072 2374 3771 3050))))
+
+(desktop-create-buffer 208
+  "/Users/admin/.emacs.d/lib/init-auto-save.el"
+  "init-auto-save.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode company-mode global-auto-revert-mode hungry-delete-mode yas-minor-mode projectile-mode)
+  110
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23097 26305 417033 180000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/src/components/myTicket/chooseCategory/index.js"
+  "index.js"
+  'jsx-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  2163
+  '(6147 nil)
+  nil
+  nil
+  '((buffer-display-time 23095 47794 78703 443000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (769 1095 6137 6247 6247 2274 2277 4621 2180 2163))))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/src/components/myTicket/ticketPayment/index.js"
+  "index.js"
+  'jsx-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  1
+  '(8319 nil)
+  nil
+  nil
+  '((buffer-display-time 23095 47551 620317 443000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (720 720 720 592 720 720 720 720 720 720 720 720))))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/src/components/myTicket/activityDetail/index.js"
+  "index.js"
+  'jsx-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  3215
+  '(3615 nil)
+  nil
+  nil
+  '((buffer-display-time 23095 46855 371431 443000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (2972 4686 2972 6875 6757 6432 6323 2933 2933 6344 6364 6365 6344 6403 7077 6877))))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/src/components/myTicket/activityDetail/style.less"
+  "style.less"
+  'less-css-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode yas-minor-mode projectile-mode)
+  1672
+  '(1666 t)
+  nil
+  nil
+  '((buffer-display-time 23095 45732 81919 443000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1 1666))))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/src/utils/apiPath.js"
+  "apiPath.js"
+  'jsx-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  3242
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 23095 41087 979086 443000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (3517 3242))))
+
+(desktop-create-buffer 208
+  nil
+  "passing"
+  'dired-mode
+  '(linum-mode company-mode global-auto-revert-mode hungry-delete-mode yas-minor-mode projectile-mode)
+  439
+  '(nil nil)
+  t
+  '("/Users/admin/web-front2/src/components/passing/")
+  '((buffer-display-time 23095 40974 118612 443000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/admin/Desktop/asd/demo.js"
+  "demo.js"
+  'jsx-mode
+  '(linum-mode company-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  291
+  '(291 nil)
+  nil
+  nil
+  '((buffer-display-time 23094 55725 482206 454000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (291 190 190 291 1 291 290 290 32 2 2 291 32 291 32 291))))
+
+(desktop-create-buffer 208
+  nil
+  "asd"
+  'dired-mode
+  '(linum-mode company-mode global-auto-revert-mode hungry-delete-mode yas-minor-mode projectile-mode)
+  246
+  '(nil nil)
+  t
+  '("/Users/admin/Desktop/asd/")
+  '((buffer-display-time 23094 43781 24611 454000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/src/components/myTicket/ticketList/index.js"
+  "index.js"
+  'jsx-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  1103
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23093 31896 188546 454000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "web-front2"
+  'dired-mode
+  '(linum-mode company-mode global-auto-revert-mode hungry-delete-mode yas-minor-mode projectile-mode)
+  232
+  '(nil nil)
+  t
+  '("/Users/admin/web-front2/")
+  '((buffer-display-time 23093 31847 470709 454000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/admin/web-front2/webpack.config.babel.js"
+  "webpack.config.babel.js"
+  'jsx-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  874
+  '(371 nil)
+  nil
+  nil
+  '((buffer-display-time 23093 31397 223712 454000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (371 384 1608 874))))
+
+(desktop-create-buffer 208
+  "/Users/admin/preact_demo/gua.game.js/7.12/ball.png"
+  "ball.png"
+  'image-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode yas-minor-mode projectile-mode)
+  1267
+  '(1267 nil)
+  nil
+  nil
+  '((buffer-display-time 23093 2464 556248 270000) (buffer-file-coding-system . no-conversion) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/admin/preact_demo/gua.game.js/7.12/game.html"
+  "game.html"
+  'web-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  3382
+  '(2833 nil)
+  nil
+  nil
+  '((buffer-display-time 23093 2441 81511 270000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (3346 637 3572 3362 2300 3051 3050 843 839 839 2949 2948 3697 1 3697 3382))))
+
+(desktop-create-buffer 208
+  "/Users/admin/preact_demo/gua.game.js/7.21/game.html"
+  "game.html"
+  'web-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23092 60547 311303 494000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "snippets"
+  'dired-mode
+  '(linum-mode company-mode global-auto-revert-mode hungry-delete-mode yas-minor-mode projectile-mode)
+  181
+  '(nil nil)
+  t
+  '("/Users/admin/.emacs.d/snippets/")
+  '((buffer-display-time 23091 58330 40385 958000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/admin/easyPayNode/node-server.js"
+  "node-server.js"
+  'jsx-mode
+  '(linum-mode company-mode auto-revert-mode global-auto-revert-mode hungry-delete-mode emmet-mode yas-minor-mode projectile-mode)
+  446
+  '(6002 nil)
+  nil
+  nil
+  '((buffer-display-time 23091 57109 936370 883000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (8185 1278 1183 1276 1183 1276 8109 8185 2358))))
+
+(desktop-create-buffer 208
+  nil
+  "admin"
+  'dired-mode
+  '(linum-mode company-mode global-auto-revert-mode hungry-delete-mode yas-minor-mode projectile-mode)
+  5994
+  '(239 nil)
+  t
+  '("/Users/admin/")
+  '((buffer-display-time 23099 23417 655463 0))
+  '((mark-ring nil)))
+

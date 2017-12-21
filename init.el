@@ -25,6 +25,9 @@
 		expand-region
 		counsel
 		smartparens
+                window-numbering
+                session
+                projectile
 		;; --- Major Mode ---
 		js2-mode
 		web-mode
@@ -63,7 +66,8 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (magit jsx-mode jdee emmet-mode auto-complete iedit expand-region js2-refactor web-mode reveal-in-osx-finder js3-mode swiper-helm company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme))))
+    (projectile window-numbering session magit jsx-mode jdee emmet-mode auto-complete iedit expand-region js2-refactor web-mode reveal-in-osx-finder js3-mode swiper-helm company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme)))
+ '(session-use-package t nil (session)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -98,4 +102,7 @@
 (require 'init-ui)
 (require 'init-better-default)
 (require 'init-keybind)
+(require 'init-auto-save)
+(auto-save-enable)
+(setq auto-save-slient t)
 (put 'dired-find-alternate-file 'disabled nil)
