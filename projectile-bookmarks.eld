@@ -1,1 +1,1 @@
-("~/web-front2/" "~/easyPayNode/" "~/preact_demo/gua.game.js/" "~/.emacs.d/")
+("~/.emacs.d/" "~/web-front2/" "~/easyPayNode/" "~/preact_demo/gua.game.js/")
